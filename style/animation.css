@@ -1,0 +1,114 @@
+.animation {
+  width: 100%;
+  height: 100vh;
+  background-color: #8bc2f4;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first {
+  stroke-dasharray: 338px;
+  stroke-dashoffset: 338px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#second {
+  stroke-dasharray: 359px;
+  stroke-dashoffset: 359px;
+  animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+
+#third {
+  stroke-dasharray: 445px;
+  stroke-dashoffset: 445px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+
+#fourth {
+  stroke-dasharray: 382px;
+  stroke-dashoffset: 382px;
+  animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+
+#fifth {
+  stroke-dasharray: 309px;
+  stroke-dashoffset: 309px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#sixth {
+  stroke-dasharray: 404px;
+  stroke-dashoffset: 404px;
+  animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+
+#seventh {
+  stroke-dasharray: 239px;
+  stroke-dashoffset: 239px;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+
+#eighth {
+  stroke-dasharray: 1386px;
+  stroke-dashoffset: 1386px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#ninth {
+  stroke-dasharray: 1133px;
+  stroke-dashoffset: 1133px;
+  animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+
+#tenth {
+  stroke-dasharray: 1174px;
+  stroke-dashoffset: 1174px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+
+#eleventh {
+  stroke-dasharray: 1388px;
+  stroke-dashoffset: 1388px;
+  animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+
+#twelfth {
+  stroke-dasharray: 606px;
+  stroke-dashoffset: 606px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#thirteenth {
+  stroke-dasharray: 1284px;
+  stroke-dashoffset: 1284px;
+  animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+
+#fourteenth {
+  stroke-dasharray: 1210px;
+  stroke-dashoffset: 1210px;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+
+svg {
+  animation: fill 1s ease-in forwards 1.8s;
+  margin-bottom: 2rem;
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}/*# sourceMappingURL=animation.css.map */

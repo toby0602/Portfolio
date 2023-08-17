@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shan Lai">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="這是Shan Lai的個人網站。Shan Lai來自台灣的網頁開發人員">
+    <title>我的履歷 | Shan 網頁前端工程師</title>
+    <!-- Google font setting -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- header & nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active1" href="./resume.html">我的履歷</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">聯絡方式</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                                href="./Taiwan Project/index.html">Taiwan Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                                href="./Hawaii Project/index.html">Hawaii Project</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="table">
+            <table>
+                <tr>
+                    <td style="width: 20%;">自我簡介</td>
+                    <td style="width: 80%;">
+                        過去負責維護網站與網頁內容，包含：電腦Web版面、手機畫面，
+                        以及跟UI部門配合網頁製作與開發。<br>
+                        熟悉HTML、CSS、SCSS、Javascript、jQuery、git、Bootstrap以及RWD，
+                        有使用Jenkins的經驗，目前正在學習Vue框架。
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>學歷</td>
+                    <td>嶺東科技大學 應用外語系</td>
+                </tr>
+
+                <tr>
+                    <td>經歷</td>
+                    <td>勞動力發展署 全端網頁程式設計學員</td>
+                </tr>
+
+                <tr>
+                    <td>語言</td>
+                    <td>
+                        <ul>
+                            <li>中文：精通</li>
+                            <li>英文：略懂</li>
+                            <li>台語：中等</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr style="border-bottom: none;">
+                    <td>專長</td>
+                    <td>
+                        <img src="./ICONS/icons8-html-64.png" style="width: 48px; height: 48px;" alt="" class="icon">
+                        <img src="./ICONS/icons8-css-48.png" alt="" class="icon">
+                        <img src="./ICONS/icons8-javascript-64.png" style="width: 48px; height: 48px;" alt=""
+                            class="icon">
+                        <img src="./ICONS/icons8-vue-js-48.png" alt="" class="icon">
+                        <img src="./ICONS/icons8-nodejs-48.png" alt="" class="icon">
+                        <img src="./ICONS/icons8-jquery-48.png" alt="" class="icon">
+                        <img src="./ICONS/icons8-bootstrap-48.png" alt="" class="icon">
+                        <img src="./ICONS/icons8-git-48.png" alt="" class="icon">
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="picture">
+            <img src="./pictures/1597671664478.jpg" alt="" id="moveRight">
+            <div class="blueRect" id="moveLeft"></div>
+        </section>
+    </main>
+
+    <!-- Links for facebook, instagram and github -->
+    <footer>
+        <a href="#"><img src="./ICONS/facebook.svg" alt="facebook" title="facebook page" class="scale"></a>
+        <a href="#"><img src="./ICONS/instagram.svg" alt="instagram" title="instagram page" class="scale"></a>
+        <a href="https://github.com/toby0602"><img src="./ICONS/github-brands 1.svg" alt="github" title="github page"
+                class="scale"></a>
+    </footer>
+</body>
+
+<script src="./app.js?v"></script>
+
+</html>

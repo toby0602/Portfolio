@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header {
+  background-color: #d9d9d9;
+  width: 100%;
+  padding: 1.2rem;
+}
+
+nav {
+  background-color: #4b4a4a;
+  padding: 0.8rem;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 1rem;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+
+nav ul li a {
+  color: rgb(211, 208, 208);
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: all 0.25s ease;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.active {
+  color: white;
+}
+
+.headerTitle {
+  font-size: 2.5rem;
+}
+
+.headerText {
+  font-size: 1rem;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.right,
+section.left {
+  padding: 1.5rem;
+}
+
+.left {
+  flex: 4 1 550px;
+}
+
+#curve_chart {
+  width: 100%;
+  height: 80%;
+}
+
+section.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 250px;
+}
+
+section.right h4 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+section.right p {
+  margin: 1rem 0rem;
+}
+
+/* 農業改革/工業改革/經濟起飛 */
+section.container {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+section.container h2 {
+  font-weight: 600;
+}
+
+section.container h3 {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+section.container ol {
+  padding: 1.3rem;
+}
+
+/* 工業改革 */
+div.leftIndus {
+  flex-direction: column;
+  flex: 1 1 400px;
+}
+
+div.leftIndus p {
+  padding: 2rem;
+}
+
+div.rightIndus {
+  flex: 1 1 700px;
+}
+
+div.rightIndus p {
+  padding: 2rem;
+}
+
+/* 經濟起飛 */
+img.pic {
+  width: 100%;
+  padding: 2rem 0 0 0;
+}
+
+div.extra {
+  margin: 1rem;
+}
+
+div.extra h3 {
+  color: black;
+  display: flex;
+  justify-content: left;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+div.extra ul {
+  padding: 0.5rem 0;
+}
+
+div.extra ul li a {
+  color: brown;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+div.extra ul li a:hover {
+  color: cadetblue;
+}
+
+/* 關於作者 */
+div.author {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.leftAuthor,
+.rightAuthor {
+  padding: 1.5rem;
+}
+
+.rightAuthor h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.rightAuthor p {
+  margin-bottom: 2rem;
+}
+
+#selfie {
+  width: 210px;
+  border-radius: 50%;
+}
+
+/* RWD */
+
+@media screen and (max-width: 670px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  div.author {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.leftAuthor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and(max-width:550px) {
+  #curve_chart {
+    width: 100%;
+    height: 30%;
+  }
+}

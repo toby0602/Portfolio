@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shan Lai">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="這是Shan Lai的個人網站。Shan Lai來自台灣的網頁開發人員">
+    <meta name="format-detection" content="telephone=no">
+    <title>聯絡方式 | Shan 網頁前端工程師</title>
+    <!-- Google font setting -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous">
+    </script>
+
+
+</head>
+
+<body>
+    <!-- header & nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./resume.html">我的履歷</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active1" href="./contact.html">聯絡方式</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                                href="./Taiwan Project/index.html">Taiwan Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                                href="./Hawaii Project/index.html">Hawaii Project</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form">
+            <form>
+                <div>
+                    <label for="name">姓名：</label>
+                    <input type="text" name="name" />
+                </div>
+                <br>
+                <div>
+                    <label for="email">郵件：</label>
+                    <input type="email" name="email" />
+                </div>
+                <br>
+                <div>
+                    <label for="phone">電話：</label>
+                    <input type="text" name="phone" />
+                </div>
+                <br>
+                <div>
+                    <label for="need">需求：</label>
+                    <textarea name="need" id="need" rows="5"></textarea>
+                </div>
+                <br>
+                <button type="submit">提交表單</button>
+            </form>
+        </section>
+        <div class="line"></div>
+        <section class="contact">
+            <div class="content">
+                <h2>我的電話：
+                    <a class="textDecoration" href="tel:+886-916565759">0916-565-759</a>
+                </h2>
+                <h2>
+                    我的E-mail：
+                    <a class="textDecoration" href="mailto:shan5201010@gmail.com">shan5201010@gmail.com</a>
+                </h2>
+                <h2>聯絡時間：9:00 ~ 21:00</h2>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Links for facebook, instagram and github -->
+    <footer>
+        <a href="#"><img src="./ICONS/facebook.svg" alt="facebook" title="facebook page" class="scale"></a>
+        <a href="#"><img src="./ICONS/instagram.svg" alt="instagram" title="instagram page" class="scale"></a>
+        <a href="https://github.com/toby0602"><img src="./ICONS/github-brands 1.svg" alt="github" title="github page"
+                class="scale"></a>
+    </footer>
+    <script src="./app.js?v"></script>
+</body>
+
+</html>
